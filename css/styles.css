@@ -1,0 +1,110 @@
+div {
+  background-color: black; }
+
+body {
+  color: #2B2726;
+  text-align: center; }
+
+body {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  padding-top: 10px;
+  color: grey;
+  font-weight: bold; }
+
+.cuerpodeweb {
+  background-color: black; }
+
+.cuerpodeweb__titulo {
+  text-align: center;
+  font-size: xx-large; }
+
+.cuerpodeweb__parrafo {
+  background-color: white;
+  text-align: left;
+  font-family: monospace;
+  font-weight: bold; }
+
+.cuerpodeweb__parrafodos {
+  color: yellowgreen;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px; }
+
+.cuerpodeweb__parrafotres {
+  background-color: white;
+  text-align: left;
+  font-family: monospace; }
+
+.cuerpodeweb__img {
+  height: auto;
+  width: auto; }
+
+.cuerpodeweb__buttom {
+  color: grey; }
+
+.cuerpodeweb__bottom2 {
+  color: yellowgreen; }
+
+.eldoble {
+  width: 500px;
+  height: 500px; }
+
+/* constante */
+p {
+  color: #2c2c2e; }
+
+.casitodos-1 {
+  width: 2px; }
+
+.casitodos-2 {
+  width: 4px; }
+
+.casitodos-3 {
+  width: 6px; }
+
+.casitodos-4 {
+  width: 8px; }
+
+.casitodos-5 {
+  width: 10px; }
+
+.casitodos-6 {
+  width: 12px; }
+
+.casitodos-7 {
+  width: 14px; }
+
+.tarjetitas-icon {
+  Background-image: url "cursocoder/tarjetitas.jpg"; }
+
+.revistas-icon {
+  Background-image: url "cursocoder/revistas.jpg"; }
+
+.television-icon {
+  Background-image: url "cursocoder/television.jpg"; }
+
+.btn--twitter {
+  background-color: #55acee; }
+
+.btn--facebook {
+  background-color: #3a5795; }
+
+.btn--tinder {
+  background-color: #C25E30; }
+
+.btn--youtube {
+  background-color: red; }
+
+.btn--whatsapp {
+  background-color: green; }
+
+.btn--Branding {
+  background-color: #15c232; }
+
+.btn--Contenidos {
+  background-color: #0e46c0; }
+
+.btn--Estrategia {
+  background-color: #524f4e; }

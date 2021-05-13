@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="CSS PAGINA.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;1,100;1,300&display=swap" rel="stylesheet">
+<title>Contacto</title>
+<meta name="Keyword" content="Direccion, Telefono, Contacto, Presupuesto">
+<meta name="description" content="En esta pagina de contacto tenes la informacion 24hs para entender
+donde encontrarme. El contacto con la agencia puede ser de manera digital,
+telefonica o presencial en nuestras oficinas de La Plata">
+
+<section>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" style="margin-left: 15px;" href="#"><img src="./m2m.png" style="width: 40px;height: 35px;" alt="" srcset=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="./Index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./quienessomos.html">Quienes Somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./comotrabajamos.html">Como Trabajamos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Que ofrecemos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="./servicios.html">Branding</a>
+            <a class="dropdown-item" href="./servicios.html">Contenido Multimedial</a>
+            <a class="dropdown-item" href="./servicios.html">Estrategia MKT 360</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</section>
+
+</head>
+<body class="center" font-family: monospace;>
+
+  <h1>¿Querés saber cuánto cuesta hacer más plata?</h1>
+  <p>
+  Pedinos un presupuesto a través del formulario. Si no, vení a tomarte un café con nosotros y charlemos un rato sobre tu negocio
+  
+  Tené en cuenta que:
+  
+  Todos nuestros presupuestos son personalizados: nos adaptamos a la situación y finanzas de cada cliente.
+  Siempre se puede crecer más.
+  Más caro es no vender</p>
+
+  <!-- Contact-->
+  <section class="page-section" id="contact">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase"> Completa tus datos </h2>
+            <br>
+</br>
+           
+        </div>
+        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+            <div class="row align-items-stretch mb-5">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control" id="name" type="text" placeholder="Tu nombre *" required="required" data-validation-required-message="Coloca tu nombre." />
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="email" type="email" placeholder="Tu mail *" required="required" data-validation-required-message="Email." />
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group mb-md-0">
+                        <input class="form-control" id="phone" type="tel" placeholder="Tu Telefono *" required="required" data-validation-required-message="Telefono." />
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group form-group-textarea mb-md-0">
+                        <textarea class="form-control" id="message" placeholder="Dejanos tu mensaje *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <div id="success"></div>
+                <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Enviar consulta</button>
+            </div>
+        </form>
+    </div>
+</section>
+<br>
+</br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.7606596298615!2d-58.064115585184055!3d-34.91245538140516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2dc4fd83b7957%3A0x4b9042c2f2e796c1!2sLomas%20De%20City%20Bell!5e0!3m2!1ses-419!2sar!4v1620084673774!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<br>
+</br>
+<a class="font3" href="./Index.html"> Volve al menu principal</a></li>
+</section>
+</body>

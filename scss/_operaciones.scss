@@ -1,0 +1,60 @@
+$anchopagina: 1000px;
+
+.eldoble{
+    width: $anchopagina/2;
+    height: $anchopagina/2;
+}
+
+
+$elmejorfondo: principal; /* constante */
+p {
+      @if $elmejorfondo == principal {
+             color: rgb(44, 44, 46);
+      } @else if $elmejorfondo == secundario {
+                 color: black;
+     } @else if $elmejorfondo == terciario {
+                color: grey;
+     } @else {
+                color: white;
+      }
+}
+
+@for $i from 1 through 7 {
+    .casitodos-#{$i} { width: 2px * $i; }
+  }
+
+
+  @each $marketing in tarjetitas, revistas, television {
+    .#{$marketing}-icon { 
+          Background-image:  
+           url ('cursocoder/#{$marketing}.jpg')
+
+     }
+ } 
+
+ $redes: ( 
+        twitter: #55acee,
+        facebook:  #3a5795,
+        tinder: #C25E30,
+        youtube: red,
+        whatsapp: green,
+); 
+
+@each $red, $color in $redes {
+   .btn--#{$red} {
+       background-color: $color;
+   }
+}
+
+$servicios: ( 
+    Branding: #15c232,
+    Contenidos:  #0e46c0,
+    Estrategia: #524f4e,
+   
+); 
+
+@each $servicios, $color in $servicios {
+.btn--#{$servicios} {
+   background-color: $color;
+}
+}
